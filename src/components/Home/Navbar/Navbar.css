@@ -1,0 +1,25 @@
+.navbar{
+    display : flex;
+    padding : 0px;
+    margin : 0px;
+    box-sizing:  border-box;
+    justify-content: space-between;
+    align-items: center;
+    position : fixed;
+    height : 13vh;
+    width : 100%;
+    top : 0;
+    left : 0;
+    z-index : 0;
+    color: #fff;
+}
+nav ul li{
+    display : inline-block;
+    list-style:  none;
+    margin : 5px 20px;
+    font-size: 16px;
+}
+.logo{
+    height : 11vh;
+    margin-left : 1vh;
+}

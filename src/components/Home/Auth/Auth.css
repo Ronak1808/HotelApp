@@ -1,0 +1,57 @@
+.auth-component{
+    margin-top : 12vh;
+    margin-left : 5vw;
+    width : 35vw;
+    padding : 0px;
+    flex-direction: column;
+    box-sizing: border-box;
+    border : 2px solid rgb(203, 203, 203);
+    border-radius: 4px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width : 80%;
+    margin-left : 10%;
+}
+label {
+    color: white !important;
+}
+form input{
+    padding : 8px;
+    height : 35px;
+    box-sizing: border-box;
+    border-radius:  10px;
+    font-size : 16px;
+    margin-bottom : 10px;
+    border : 1px solid #ccc;
+}
+labeL{
+    margin-left : 10px;
+}
+
+.btn-grp{
+    display : flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: horizontal;
+    padding: 10px;
+    gap: 5px;
+}
+.btn{
+    height : 5vh;
+    width : 100%;
+    margin-top : 10%;
+    margin-bottom: 3%;
+    border-radius: 2.5vh;
+    border-color: white;
+    color: white;
+    display: inline-block;
+    cursor : pointer;
+    overflow: hidden;
+    background-color: transparent;
+    font-size : 2.5vh;
+}
+.btn:hover{
+    background : rgb(125, 89, 192);
+}
